@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="stylesheet" href="css/bootstrap.css">
+
+<style>
+body{
+	margin: 0px;
+	padding: 0px;
+}
+#calculator{
+	background-color: rgba(16, 16, 12, 0.37);
+	width: 23%;
+	margin: 100px auto ;
+	border-radius: 25px;
+	}
+.calc{
+	padding: 30px 30px 30px 30px;
+}
+.form-control {
+	text-align: right;
+	font-size: 40px;
+}
+
+.btnMang{
+	width: 50px; 
+	height: 31px;
+	margin: 13px 9px 0px 0px;
+
+}
+
+</style>
+
+<script>
+function action1(num){
+ document.getElementById("txt1").value += num 
+
+}
+</script>
+</head>
+<body>
+	<div id="calculator">
+		<form class="calc">
+			<input type="text" class="form-control input-lg" id="txt1" maxlength="10" >
+			
+				<input type="button" value="C" class="btn btnMang" onclick=" document.getElementById('txt1').value =  document.getElementById('txt1').value.slice(0, document.getElementById('txt1').value.length-1)">
+				<input type="button" value="+-" class="btn btnMang"  onclick="action1(this.value)">
+				<input type="button" value="/" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="X" class="btn btnMang" onclick="action1('*')"><br>
+				<input type="button" value="7" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="8" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="9" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="-" class="btn btnMang" onclick="action1(this.value)"><br>
+				<input type="button" value="4" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="5" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="6" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="+" class="btn btnMang" onclick="action1(this.value)"><br>
+				<input type="button" value="1" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="2" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="3" class="btn btnMang" onclick="action1(this.value)">
+				<input type="button" value="=" class="btn btnMang" onclick="document.getElementById('txt1').value = eval(document.getElementById('txt1').value)"><br>
+				<input type="button" value="0" class="btn btnMang" style="width: 175px" onclick="action1(this.value)">
+				<input type="button" value="." class="btn btnMang"  onclick="action1(this.value)">
+		
+
+		</form>
+	</div>
+</body>
+</html>
