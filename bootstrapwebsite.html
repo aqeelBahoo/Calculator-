@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js" ></script>
+
+    <style>
+        body{
+            padding-top: 40px;
+        }
+    </style>
+
+</head>
+<body data-spy="scroll" data-target="#my-navbar">
+
+            <!--navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="my-navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">WiredWiki</a>
+            </div>  <!--end navbar header-->
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <a href="" class="btn btn-warning navbar-btn navbar-right">Download Now</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="#feedback">Feedback</a>
+                    <li><a href="#gallery">Gallery</a>
+                    <li><a href="#features">Features</a>
+                    <li><a href="#faq">Faq</a>
+                    <li><a href="#contact">Contact Us</a>
+                </ul>
+            </div>
+        </div>   <!--end container-->
+    </nav>  <!--end navbar-->
+
+
+   <div class="jumbotron">   <!---->
+       <div class="container text-center">
+           <h1>Wiredwiki App</h1>
+           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+           <div class="btn-group">
+               <a href="" class="btn btn-lg btn-warning">Download</a>
+               <a href="" class="btn btn-lg btn-default">Visit Store</a>
+               <a href="" class="btn btn-lg btn-warning">Spread the words</a>
+           </div>
+       </div> <!--end container-->
+   </div>  <!--end jumbotron-->
+
+
+            <!--Feedback-->
+   <div class="container">
+       <section>
+           <div class="page-header" id="feedback">
+               <h2>Feedback <small> Checkout the Awesome Feedback</small></h2>
+           </div>
+           <div class="row">
+               <div class="col-lg-4">
+                   <blockquote>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                       </p>
+                       <footer>Jhon Doe</footer>
+                   </blockquote>
+
+               </div>
+               <div class="col-lg-4">
+                   <blockquote>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                       </p>
+                       <footer>Jhon Doe</footer>
+                   </blockquote>
+
+               </div>
+               <div class="col-lg-4">
+                   <blockquote>
+                       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                           Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                       </p>
+                       <footer>Jhon Doe</footer>
+                   </blockquote>
+
+               </div>
+           </div> <!--End row-->
+       </section>
+   </div>  <!--End Container-->
+
+
+        <!--call to action-->
+    <section>
+        <div class="well">
+            <div class="container text-center">
+                <h3>Subscribe for more free stuff</h3>
+                <p>Ener you name and email</p>
+
+                <form action="" class="form-inline">
+                    <div class="form-group">
+                        <label for="subscription">Subscription</label>
+                        <input type="text" class="form-control" id="subscription" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter your Email">
+                    </div>
+                    <button type="button" class="btn btn-default">Subscription</button>
+                    <hr>
+                </form>
+            </div><!--end container-->
+        </div><!--end well-->
+    </section><!--Call to action-->
+
+        <!--Gallery-->
+    <div class="container">
+        <section>
+            <div class="page-header" id="gallery">
+                <h2>Gallery <small>Checkout the Awesome Gallery</small></h2>
+            </div>
+            <div class="carousel slide" id="images" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                     <li data-target="#images" data-slide-to="0" class="active"></li>
+                     <li data-target="#images" data-slide-to="1"></li>
+                     <li data-target="#images" data-slide-to="2"></li>
+                     <li data-target="#images" data-slide-to="3"></li>
+                 </ol>
+                 <div class="carousel-inner">
+                     <div class="item active">
+                         <img src="first.jpg" alt="">
+                         <div class="carousel-caption">
+                             <h3>Highway heading</h3>
+                             <p>This is the caption.</p>
+                         </div>
+                     </div>
+                     <div class="item">
+                         <img src="second.jpg" alt="">
+                         <div class="carousel-caption">
+                             <h3>Highway heading</h3>
+                             <p>This is the caption.</p>
+                         </div>
+                     </div>
+                     <div class="item">
+                         <img src="third.jpg" alt="">
+                         <div class="carousel-caption">
+                             <h3>Highway heading</h3>
+                             <p>This is the caption.</p>
+                         </div>
+                     </div>
+                     <div class="item">
+                         <img src="fourth.jpg" alt="">
+                         <div class="carousel-caption">
+                             <h3>Highway heading</h3>
+                             <p>This is the caption.</p>
+                         </div>
+                     </div>
+                 </div>
+                <a href="#images" class="left carousel-control" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a href="#images" class="right carousel-control" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div><!--end carousel-->
+        </section>
+    </div>
+
+
+        <!--Features-->
+    <div class="container">
+        <section>
+            <div class="page-header" id="features">
+                <h2>Features <small>Some of the coolest features.</small></h2>
+            </div> <!--End page Header-->
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3>This is heading</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="iphone1.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3>This is heading</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="iphone2.jpg" class="img-responsive">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3>This is heading</h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="iph1.jpg" class="img-responsive">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body text-center">
+                            <span class="glyphicon glyphicon-ok"></span>
+                            <h4>This is the heading</h4>
+                            <p>There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected humour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default text-center">
+                        <div class="panel-body">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <h4>This is the heading</h4>
+                            <p>There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected humour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-body text-center">
+                            <span class="glyphicon glyphicon-play-circle"></span>
+                            <h4>This is the heading</h4>
+                            <p>There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected humour
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end row-->
+        </section>
+    </div> <!--End container-->
+
+        <!--FAQ-->
+    <div class="container">
+        <section>
+            <div class="page-header" id="faq">
+                <h2>FAQ <small>Engaging with consumers.</small></h2>
+            </div> <!--end page header-->
+
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-1" data-toggle="collapse" data-parent="accordion">
+                                Question one?
+                            </a>
+                        </div><!--end panel title-->
+                        <div id="collapse-1" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected humour
+                            </div>
+                        </div> <!--end panel collapse-->
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-2" data-toggle="collapse" data-parent="accordion">
+                                Question two?
+                            </a>
+                        </div><!--end panel title-->
+                        <div id="collapse-2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected humour
+                            </div>
+                        </div> <!--end panel collapse-->
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div class="panel-title">
+                            <a href="#collapse-3" data-toggle="collapse" data-parent="accordion">
+                                Question three?
+                            </a>
+                        </div><!--end panel title-->
+                        <div id="collapse-3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected humour
+                            </div>
+                        </div> <!--end panel collapse-->
+                    </div>
+                </div>
+            </div><!--end panel group-->
+        </section>
+    </div> <!--end container-->
+
+        <!--contact-->
+    <div class="container">
+        <section>
+            <div class="page-header" id="contact">
+                <h2>Contact us <small>Engaging with consumers.</small></h2>
+            </div> <!--end page header-->
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Send us a message. or contact us the address below</p>
+
+                    <address>
+                        <strong>Wiredwiki Pvt Ltd.</strong><br>
+                        R 110 malik society<br>
+                        Gulshan-Iqbal<br>
+                        Karachi
+                    </address>
+                </div>
+                <div class="col-lg-8">
+                    <form action="" class="form-horizontal">
+                        <div class="form-group">
+                            <label for="user-name" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+                            </div>
+
+                        </div><!--end formgroup-->
+                        <div class="form-group">
+                            <label for="user-email" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-email" placeholder="Enter your email address">
+                            </div>
+                        </div><!--end formgroup-->
+
+                        <div class="form-group">
+                            <label for="user-url" class="col-lg-2 control-label">your website</label>
+                            <div class="col-lg-10">
+                                <input type="text" class="form-control" id="user-url" placeholder="if you have any">
+                            </div>
+                        </div><!--end formgroup-->
+
+                        <div class="form-group">
+                            <label for="user-msg" class="col-lg-2 control-label">Enter your message</label>
+                            <div class="col-lg-10">
+                                <textarea name="comment" id="user-msg"  class="form-control" placeholder="Enter your message" cols="20" rows="10"></textarea>
+                            </div>
+                        </div><!--end formgroup-->
+                        <div class="col-lg-10 col-lg-offset-2">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr>
+        </section>
+
+    </div><!--end container-->
+
+    <footer>
+
+        <div class="container text-center">
+            <h3>Subscribe for more free stuff</h3>
+            <p>Ener you name and email</p>
+
+            <form action="" class="form-inline">
+                <div class="form-group">
+                    <label for="subscription2">Subscription</label>
+                    <input type="text" class="form-control" id="subscription2" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email2">Email address</label>
+                    <input type="text" class="form-control" id="email2" placeholder="Enter your Email">
+                </div>
+                <button type="button" class="btn btn-default">Subscription</button>
+
+            </form>
+
+           <ul class="list-inline">
+               <hr>
+               <li></li><a href="#">Twitter</a></li>
+               <li> <a href="#">Facebook</a></li>
+               <li><a href="#">Youtube</a></li>
+           </ul>
+            <p>&copy; Copy @ 2017</p>
+        </div> <!--end container-->
+    </footer>
+</body>
+</html>
